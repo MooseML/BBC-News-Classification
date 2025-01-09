@@ -39,8 +39,8 @@ Project Goals
 5. **Transformer-Based Models:** BERT/Roberta fine-tuning for classification.
 
 ## Results
-NMF (Unsupervised): Gained insight into latent topics; used label permutation for alignment (95.%).
-Multinomial NB: Achieved strong accuracy (97.%).
+NMF (Unsupervised): Gained insight into latent topics; used label permutation for alignment (95.102%).
+Multinomial NB: Achieved strong accuracy (97.414%).
 BERT/Roberta: Reached the highest test accuracy on Kaggle (98.775%).
 
 ## Installation
@@ -52,10 +52,6 @@ BERT/Roberta: Reached the highest test accuracy on Kaggle (98.775%).
    ```bash
    cd BBC-News-Classification
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
 ## Usage
 1. Open the Jupyter Notebook:
    ```bash
@@ -66,5 +62,5 @@ BERT/Roberta: Reached the highest test accuracy on Kaggle (98.775%).
 
 ## Acknowledgments
 
-- **Dataset:** This project utilizes the ([Learn AI BBC Data](https://www.kaggle.com/competitions/learn-ai-bbc/data)) provided by IBM.
+- **Dataset:** This project utilizes the ([Learn AI BBC Data](https://www.kaggle.com/competitions/learn-ai-bbc/data)).
 
